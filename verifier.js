@@ -5,12 +5,13 @@ function verifier()
     console.log(user_pi);
 
     document.getElementById("verification").innerHTML = "";
+    document.getElementById("pi_value").value = "";
 
     let l = user_pi.length;
 
     if (l > pi.length)
     {
-        document.getElementById("verification").innerHTML = "Vous avez entré tellement de décimales que nous ne pouvons tout vérifier !\n";
+        document.getElementById("verification").innerHTML = "Vous avez entré tellement de décimales que nous ne pouvons tout vérifier !<br />";
         l = pi.length;
     }
 
@@ -24,20 +25,17 @@ function verifier()
         {
             document.getElementById("verification").innerHTML += "<span class=\"red\">" + user_pi[i] + "</span>";
         }
-
-        if ((i-11) % 10 == 0)
-        {
-            document.getElementById("verification").innerHTML += " ";
-        }
-    }
-
-    document.getElementById("pi_value").value = "";
-    for (let i = 0; i < l; i++)
-    {
         document.getElementById("pi_value").value += user_pi[i];
         if ((i-11) % 10 == 0)
         {
+            document.getElementById("verification").innerHTML += " ";
             document.getElementById("pi_value").value += " ";
         }
     }
+
+    if (l >= 2)
+    {
+        document.getElementById("verification").innerHTML += "<br /> Nombre de décimales entrées : \n" + (l-2).toString();
+    }
+
 }

@@ -60,6 +60,18 @@ footer
 h1
 {
 	font-size: 50px;
+   font-family: 'Alegreya';
+}
+
+h2
+{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+p
+{
+   font-size: large;
 }
 
 textarea
@@ -141,17 +153,22 @@ strong
 	color: #909098;
 	margin: 0;
 	padding: 0;
-	font-family: "2-Questa_Sans_Regular";
+	/*font-family: "2-Questa_Sans_Regular";*/
+   font-family: 'Alegreya';
 }
 
 /* POLICES */
-@font-face {
+/*@font-face {
     font-family: '2-Questa_Sans_Regular';
     src: url('font/2-Questa_Sans_Regular-webfont.woff2') format('woff2'),
          url('font/2-Questa_Sans_Regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}*/
 
+@font-face {
+   font-family: 'Alegreya';
+   src: url('font/Alegreya-VariableFont_wght.ttf');
 }
 
 @media screen and (max-width: 800px)

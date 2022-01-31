@@ -8,19 +8,19 @@
 8 fou
 9 épée
 10 danser / tasse
-11 tante
+11 tante / tata
 12 tonneau 
 13 dame
 14 taureau
 15 talon
 16 Tuches
 17 taguer
-18 étoffe / dauphin 
+18 étoffe / dauphin
 19 taper / tapis
 20 noce
 21 Nathan
 22 naine
-23 nem
+23 nem / nam
 24 noir
 25 noël
 26 neige
@@ -37,29 +37,29 @@
 37 magasin
 38 muffin
 39 myope
-40 rasoir
+40 raser
 41 route
 42 ruine
 43 rame
 44 rire
-45 râler 
-46 ruche 
-47 raquette 
-48 ravin 
-49 robot
+45 râler
+46 ruche
+47 raquette
+48 ravin
+49 robot / rap
 50 lasso
 51 latte
 52 lune
 53 lama
 54 lire
-55 lilas / soleil 
+55 lilas / soleil
 56 luge
 57 lac
-58 lave
+58 lave / laver
 59 lapin
 60 chasser
 61 château
-62 chaîne 
+62 chaîne
 63 chameau
 64 char
 65 châle
@@ -90,10 +90,10 @@
 90 bus
 91 patte / batte
 92 panneau
-93 puma
-94 purée 
+93 puma / pomme
+94 purée
 95 palais
 96 poncho / page
-97 paquet / pâque 
-98 paver
+97 paquet / pâque
+98 paver / baver / baffer
 99 bébé

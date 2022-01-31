@@ -122,10 +122,16 @@ input
 	color: red;
 }
 
-strong 
+strong
 {
    display: inline-block;
    text-decoration: underline;
+}
+
+caption 
+{
+   margin-top: 10px;
+   margin-bottom: 5px;
 }
 
 button

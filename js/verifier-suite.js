@@ -29,7 +29,7 @@ function verifier_suite()
     {
       document.getElementById("correction").innerHTML ="C'est faux !<br />";
       document.getElementById("correction").innerHTML += "Vous avez répondu : ";
-      for (let i = 0; i < suite.length; i++)
+      for (let i = 0; i < mot.length; i++)
       {
         if ( suite[i] == mot[i] )
         {

@@ -12,12 +12,17 @@
 {
 	display: flex;
 	justify-content: left;
-    flex-direction: column;
+   flex-direction: column;
 	justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 	flex: 1;
 }
+/*
+#pi-valeur
+{
+   text-align: justify;
+}*/
 
 #main
 {  
@@ -70,6 +75,7 @@ h2
 p
 {
    font-size: large;
+   text-align: justify;
 }
 
 textarea

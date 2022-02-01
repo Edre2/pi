@@ -18,11 +18,17 @@
    padding-bottom: 20px;
 	flex: 1;
 }
-/*
-#pi-valeur
+
+#nb_de_chiffres
 {
-   text-align: justify;
-}*/
+   max-width: 30px;
+}
+
+#suites
+{
+   display: flex;
+   flex-direction: column;
+}
 
 #main
 {  
